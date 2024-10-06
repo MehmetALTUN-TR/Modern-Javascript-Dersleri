@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form Validation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container d-flex justify-content-center">
+        <div class="col-sm-5 col-10 d-flex align-items-center">
+            <div class="card border-1 w-100 border-black">
+                <div class="card-header border-black bg-info-subtle">Kullanıcı Oluştur</div>
+                <div class="card-body">
+                    <form id="form">
+                        <div class="form-group">
+                            <label for="username" class="my-2">Username</label>
+                            <input type="text" class="form-control border-black" id="username" placeholder="Enter username">
+                            <div></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="my-2">Email</label>
+                            <input type="email" class="form-control border-black" id="email" placeholder="Enter Email">
+                            <div></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="my-2">Password</label>
+                            <input type="password" class="form-control border-black" id="password" placeholder="Enter password">
+                            <div></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="repassword" class="my-2">Re-Password</label>
+                            <input type="password" class="form-control border-black" id="repassword" placeholder="Enter password again">
+                            <div></div>
+                        </div>
+                        <button type="submit" class="btn btn-info w-100 mt-4 border-1 border-black">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
