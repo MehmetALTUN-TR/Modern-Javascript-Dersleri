@@ -58,6 +58,11 @@ button:hover{
     background-color: #eaeaea;
 }
 
+button:focus{
+    border-color: #000;
+    border-width: 2px;
+}
+
 .operator{
     color: #337cac;
 }
